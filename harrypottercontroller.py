@@ -35,21 +35,21 @@ YOUR_LETTER_HERE = 'PUT YOUR CHOSEN CHARACTER HERE'
 
 while True:
 
-	#try to get a char from the keyboard
-	try:
+    #try to get a char from the keyboard
+    try:
 
-	    #get the keyboard press
-	    char = getch()
-	 
-	    #check to see if the char is "o" (open)
-	    if (char == YOUR_LETTER_HERE):
-	        
-		#DO SOMETHING HERE
+        #get the keyboard press
+        char = getch()
+     
+        #check to see if the char is "o" (open)
+        if (char == YOUR_LETTER_HERE):
+            
+        #DO SOMETHING HERE
 
-	#if you don't get a char from the keyboard, pass to the next iteration
-	except:
+    #if you don't get a char from the keyboard, pass to the next iteration
+    except:
 
-		#move on to the next iteration of the while loop
-		pass
+        #move on to the next iteration of the while loop
+        pass
 
 # END THE MAGIC WHILE LOOP
